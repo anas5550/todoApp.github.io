@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: lightseagreen;
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    height: 90vh;
+    width: 450px;
+    position: relative;
+    border: 1px solid black;
+    border-bottom: 5px solid orange;
+    outline: none;
+    padding: 2px 5px;
+
+}
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+h6{
+    text-align: center;
+}
+
+input[type="text"]{
+    display: block;
+    margin: 0 auto;
+}
+
+i{
+    margin-right: 10px;
+    transition: 0.3s all;
+}
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#edit:hover,#calender:hover{
+    color: darkgreen !important;
+    transform: scale(1.5) !important;
+}
+#delete:hover{
+    color: red;
+    transform: scale(1.5) !important;
+}
+p,hr{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.total-items{
+    overflow-y: scroll;
+    margin: 0;
+}
+.right span{
+    background: lightseagreen;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+button{
+    margin: 5px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+}
+.btn{
+    /* width: 100%; */
+    font-size: 1.2rem;
+}
